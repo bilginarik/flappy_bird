@@ -1,9 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class pipes : MonoBehaviour
 {
+    
     void Start()
     {
         float rnd = Random.Range(-2.25f,1.5f);
@@ -21,4 +24,5 @@ public class pipes : MonoBehaviour
         transform.Translate(-0.8f * Time.deltaTime, 0, 0);
         
     }
+   
 }
